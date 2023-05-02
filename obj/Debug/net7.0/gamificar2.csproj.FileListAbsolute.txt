@@ -1,0 +1,15 @@
+C:\Users\Carlos Alexandre\Desktop\gamificar2\bin\Debug\net7.0\gamificar2.exe
+C:\Users\Carlos Alexandre\Desktop\gamificar2\bin\Debug\net7.0\gamificar2.deps.json
+C:\Users\Carlos Alexandre\Desktop\gamificar2\bin\Debug\net7.0\gamificar2.runtimeconfig.json
+C:\Users\Carlos Alexandre\Desktop\gamificar2\bin\Debug\net7.0\gamificar2.dll
+C:\Users\Carlos Alexandre\Desktop\gamificar2\bin\Debug\net7.0\gamificar2.pdb
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.csproj.AssemblyReference.cache
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.AssemblyInfoInputs.cache
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.AssemblyInfo.cs
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.dll
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\refint\gamificar2.dll
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.pdb
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\gamificar2.genruntimeconfig.cache
+C:\Users\Carlos Alexandre\Desktop\gamificar2\obj\Debug\net7.0\ref\gamificar2.dll

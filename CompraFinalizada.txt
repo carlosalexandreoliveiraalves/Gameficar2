@@ -1,0 +1,12 @@
+Compra finalizada.
+----------------------------------------------------
+Estes são os itens inclusos no carrinho:
+----------------------------------------------------
+Descrição: 2 | Preço: 2 | Cor: 2| ID: 2
+Descrição: 2 | Preço: 2 | Cor: 2| ID: 2
+Descrição: 4 | Preço: 4 | Cor: 4| ID: 4
+
+Valor total da compra: 0
+
+----------------------------------------------------
+Obrigado pela preferência :D
