@@ -375,12 +375,12 @@ namespace gamificar2 {
         sw.WriteLine("Estes são os itens inclusos no carrinho:");
         sw.WriteLine("----------------------------------------------------");
 
-        int totalFinal = 0;
+        decimal totalFinal = 0;
 
         foreach (Produto itens in carrinho.Itens)
             {
                 sw.WriteLine("Descrição: " + itens.Desc + " | Preço: " + itens.Preco + " | Cor: " + itens.Cor + "| ID: " + itens.Id);
-                total = itens.Preco + totalFinal;
+                totalFinal = itens.Preco + totalFinal;
             }
         sw.WriteLine("\nValor total da compra: " + totalFinal + "\n");
 

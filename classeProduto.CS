@@ -13,11 +13,15 @@ public enum tipoRoupa {
         public decimal Preco { get; set; }
         public string Cor { get; set; }
         public int Id { get; set; }
+        public decimal Desconto {get; set;} 
         public tipoRoupa Tipo {get; set; }
 
-        public Produto(string desc, decimal preco, string cor, int id, tipoRoupa tipo) {
+
+
+        public Produto(string desc, decimal preco, decimal desconto, string cor, int id, tipoRoupa tipo) {
             Desc = desc;
-            Preco = preco;
+            Desconto = desconto;
+            Preco = preco * desconto/100;
             Cor= cor;
             Tipo = tipo;
             Id = id;
@@ -29,33 +33,19 @@ public enum tipoRoupa {
 
     }
 
-    public class Promocao {
-        public decimal Desconto { get; set; } = 32;
-        
-
-        public decimal valorDesconto(decimal desconto) {
-            decimal Desconto = 40;
-            return Desconto;
-        }
-
-        public string Descricao() {
-            return "Desconto de" + Desconto + "% aplicado";
-        }
-    }
 
 
     public class Camiseta : Produto {
         public string Tamanho { get; set; }
-        public Promocao Promocao {get; set; }
 
-        public Camiseta(string desc, decimal preco, Promocao promocao, string cor, int id, string tamanho, tipoRoupa tipo) : base(desc, preco, cor, id, tipo) {
+
+        public Camiseta(string desc, decimal preco, decimal desconto, string cor, int id, string tamanho, tipoRoupa tipo) : base(desc, preco, desconto, cor, id, tipo) {
         Tamanho = tamanho;
-        Promocao = promocao;
         }
 
         public override string Descricao()
         {
-            return "|  Descrição: " + Desc + "|  R$: " + Preco + "|  Desconto: " + Promocao.Descricao() + "|  Tipo: " + Tipo + "|  ID: " + Id;
+            return "|  Descrição: " + Desc + "|  R$: " + Preco + "|  Desconto: " + "|  Tipo: " + Tipo + "|  ID: " + Id;
         }
     }
 
@@ -63,7 +53,7 @@ public enum tipoRoupa {
     public class Sapato : Produto {
         public int Tamanho { get; set; }
 
-        public Sapato(string desc, decimal preco, int tamanho, string cor, int id, tipoRoupa tipo) : base(desc, preco, cor, id, tipo) {
+        public Sapato(string desc, decimal preco, decimal desconto, int tamanho, string cor, int id, tipoRoupa tipo) : base(desc, preco, desconto, cor, id, tipo) {
         Tamanho = tamanho;
         }
     }
@@ -73,7 +63,7 @@ public enum tipoRoupa {
         public string Tamanho { get; set; }
         public string Tecido { get; set; }
 
-        public Calca(string desc, decimal preco, string tamanho, string cor, int id, string tecido, tipoRoupa tipo) : base(desc, preco, cor, id, tipo) {
+        public Calca(string desc, decimal preco, decimal desconto, string tamanho, string cor, int id, string tecido, tipoRoupa tipo) : base(desc, preco, desconto, cor, id, tipo) {
         Tamanho = tamanho;
         Tecido = tecido;
         }
@@ -82,7 +72,7 @@ public enum tipoRoupa {
     public class Chapeu : Produto {
         public string Tamanho { get; set; }
 
-        public Chapeu(string desc, decimal preco, string tamanho, string cor, int id, tipoRoupa tipo) : base(desc, preco, cor, id, tipo) {
+        public Chapeu(string desc, decimal preco, decimal desconto, string tamanho, string cor, int id, tipoRoupa tipo) : base(desc, preco, desconto, cor, id, tipo) {
         Tamanho = tamanho;
         }
 

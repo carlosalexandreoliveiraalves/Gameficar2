@@ -1,12 +1,13 @@
-Compra finalizada.
+Compra finalizada!
 ----------------------------------------------------
 Estes são os itens inclusos no carrinho:
 ----------------------------------------------------
-Descrição: 2 | Preço: 2 | Cor: 2| ID: 2
-Descrição: 2 | Preço: 2 | Cor: 2| ID: 2
-Descrição: 4 | Preço: 4 | Cor: 4| ID: 4
+Descrição: 2 | Preço: 0,04 | Cor: 2| ID: 2
+Descrição: 6 | Preço: 0,36 | Cor: 6| ID: 6
+Descrição: 9 | Preço: 0,81 | Cor: 9| ID: 9
+Descrição: 1 | Preço: 0,01 | Cor: 1| ID: 1
 
-Valor total da compra: 0
+Valor total da compra: 1,22
 
 ----------------------------------------------------
 Obrigado pela preferência :D
